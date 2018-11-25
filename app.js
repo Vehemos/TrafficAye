@@ -30,7 +30,7 @@ function blackmagicfuckery ([lat, lon])
             var win = window.open('https://vehemos.github.io/TrafficEye/tab6.html', '_blank');
         else if (lat == 53.782096 && lon == -1.559061)
             var win = window.open('https://vehemos.github.io/TrafficEye/tab7.html', '_blank');
-
+    }
 function loadData(siteId) {
     if (site_data[siteId]) {
         load();
