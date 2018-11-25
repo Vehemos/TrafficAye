@@ -17,19 +17,19 @@ let currentField = 'Co2'
 function blackmagicfuckery ([lat, lon])
     {
         if (lat == 53.903192 && lon == -1.629799)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab1.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab1.html', '_blank');
         else if (lat == 53.818928 && lon == -1.603168)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab2.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab2.html', '_blank');
         else if (lat == 53.798325 && lon == -1.525394)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab3.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab3.html', '_blank');
         else if (lat == 53.799408 && lon == -1.535259)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab4.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab4.html', '_blank');
         else if (lat == 53.796259 && lon == -1.547696)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab5.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab5.html', '_blank');
         else if (lat == 53.796012 && lon == -1.540937)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab6.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab6.html', '_blank');
         else if (lat == 53.782096 && lon == -1.559061)
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab7.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficAye/tab7.html', '_blank');
     }
 function loadData(siteId) {
     if (site_data[siteId]) {
