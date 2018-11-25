@@ -42,16 +42,10 @@ function loadData(siteId) {
     }))
 }
 
+<script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1920px; height: 849px;'><object class='tableauViz' width='1920' height='849' style='display:none;'><param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;hackjunction' /><param name='name' value='7CityCompare&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
 
 var mymap = L.map('map').setView([53.782096, -1.559061], 13);
 loadData(currentSite);
-    
-var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js';
-    document.body.appendChild(script);
-<div class='tableauPlaceholder' style='width: 1920px; height: 849px;'><object class='tableauViz' width='1920' height='849' style='display:none;'><param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;hackjunction' /><param name='name' value='7CityCompare&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
-
 
 addMarkers(sites);
 
