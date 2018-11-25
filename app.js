@@ -43,7 +43,7 @@ function addMarkers(site) {
     site.forEach(site => {
         let marker = L.marker([site.lat, site.lon]);
         marker.on('click', () => {
-            var win = window.open('https://vehemos.github.io/TrafficEye/tab.html', '_blank');
+            var win = window.open('https://vehemos.github.io/TrafficEye/tab1.html', '_blank');
   win.focus();        })
         marker.addTo(mymap);
     })
