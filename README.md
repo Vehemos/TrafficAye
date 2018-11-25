@@ -24,9 +24,9 @@ We will use Image Recognition on running traffic cams to identify number plates,
 
 Dillinger uses a number of open source projects to work properly:
 
-* [Leaflet JS] - For Web Dashboard!
+* [JS] - For Web Dashboard!
 * [C#] - Backend Data crunching.
-* [Python - OpenCV/TesseractOCR] - Video Automatic Number Plate Recognition
+* [OpenAlpr] - Video Automatic Number Plate Recognition
 
 ### Demo
 
