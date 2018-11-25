@@ -1,4 +1,8 @@
-#map {
-    height: 400px;
-    width: 1080px;
+
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
 }
